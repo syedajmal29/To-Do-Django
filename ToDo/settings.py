@@ -26,6 +26,9 @@ SECRET_KEY = 'django-insecure-)umn2osg%d%w7a*bnhizl0zcc1c9pzvl%(o0bb=f*9due3i$($
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = [
+    'https://to-do-django-xsgm.onrender.com'
+]
 
 
 
