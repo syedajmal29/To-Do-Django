@@ -14,4 +14,4 @@ urlpatterns = [
     path('delete_task/<int:pk>', views.delete_task, name='delete_task'),
     
 
-]
+] 

@@ -14,10 +14,11 @@ def home(request):
         'completed_task': completed_task,
         
     }
-    return render(request,'home.html' , context)
+    return render(request,'home.html' , context) 
 
 
-def addTask(request):
+
+def addTask(request): 
     task = request.POST['task']
     Task.objects.create(task=task)
     return redirect('home')
